@@ -24,8 +24,15 @@
 /Users/douglasherman/Desktop/CodingDojo/C#/DojoSurvey/obj/Debug/netcoreapp3.1/DojoSurvey.TagHelpers.input.cache
 /Users/douglasherman/Desktop/CodingDojo/C#/DojoSurvey/obj/Debug/netcoreapp3.1/DojoSurvey.TagHelpers.output.cache
 /Users/douglasherman/Desktop/CodingDojo/C#/DojoSurvey/obj/Debug/netcoreapp3.1/DojoSurvey.RazorCoreGenerate.cache
-/Users/douglasherman/Desktop/CodingDojo/C#/DojoSurvey/obj/Debug/netcoreapp3.1/Razor/Views/Survey/SurveyPage.cshtml.g.cs
 /Users/douglasherman/Desktop/CodingDojo/C#/DojoSurvey/obj/Debug/netcoreapp3.1/DojoSurvey.RazorTargetAssemblyInfo.cs
 /Users/douglasherman/Desktop/CodingDojo/C#/DojoSurvey/obj/Debug/netcoreapp3.1/DojoSurvey.Views.pdb
 /Users/douglasherman/Desktop/CodingDojo/C#/DojoSurvey/obj/Debug/netcoreapp3.1/DojoSurvey.csproj.CopyComplete
-/Users/douglasherman/Desktop/CodingDojo/C#/DojoSurvey/obj/Debug/netcoreapp3.1/Razor/Views/Survey/Display.cshtml.g.cs
+/Users/douglasherman/Desktop/CodingDojo/C#/DojoSurvey/obj/Debug/netcoreapp3.1/Razor/Views/Home/Display.cshtml.g.cs
+/Users/douglasherman/Desktop/CodingDojo/C#/DojoSurvey/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+/Users/douglasherman/Desktop/CodingDojo/C#/DojoSurvey/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+/Users/douglasherman/Desktop/CodingDojo/C#/DojoSurvey/obj/Debug/netcoreapp3.1/Razor/Views/Home/SurveyPage.cshtml.g.cs
+/Users/douglasherman/Desktop/CodingDojo/C#/DojoSurvey/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+/Users/douglasherman/Desktop/CodingDojo/C#/DojoSurvey/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/douglasherman/Desktop/CodingDojo/C#/DojoSurvey/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/douglasherman/Desktop/CodingDojo/C#/DojoSurvey/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/douglasherman/Desktop/CodingDojo/C#/DojoSurvey/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
