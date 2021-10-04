@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <title>DojoSurvey</title>
 </head>
 <body>
@@ -15,24 +16,24 @@
         <form asp-action="display" method="POST">
             <label class="form-label" asp-for="name">Name:</label>
             <input class="form-control" type="text" asp-for="name" id="name">
-            <span class="warning" asp-validation-for="name">Name must be longer than 2 characters!</span>
+            <span class="warning" asp-validation-for="name"></span>
             <label class="form-label" asp-for="location">Location:</label>
             <select class="form-control" asp-for="location" id="location">
                 <option value="Chicago">Chicago</option>
                 <option value="Seattle">Seattle</option>
                 <option value="Montreal">Montreal</option>
             </select>
-            <span class="warning" asp-validation-for="location">Location required!</span>
+            <span class="warning" asp-validation-for="location"></span>
             <label class="label" asp-for="language">Favorite Language:</label>
             <select class="form-control" asp-for="language" id="language">
                 <option value="C#">C#</option>
                 <option value="JavaScript">JavaScript</option>
                 <option value="Python">Python</option>
             </select>
-            <span class="danger" asp-validation-for="language">Must choose a language!</span>
+            <span class="danger" asp-validation-for="language"></span>
             <label class="form-label" asp-for="comment">Comment (optional):</label>
             <textarea class="form-control" asp-for="comment" id="comment" cols="30" rows="10">Comments here...</textarea>
-            <span class="warning" asp-validation-for="comment">Comments must be shorter than 20 characters.</span>
+            <span class="warning" asp-validation-for="comment"></span>
             <input class="btn btn-primary" type="submit" value="submit">
         </form>
     </div>
