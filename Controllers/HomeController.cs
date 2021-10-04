@@ -26,17 +26,20 @@ namespace DojoSurvey.Controllers
         [HttpGet ("survey")]
         public IActionResult SurveyPage()
         {
-            return View();
+            if(ModelState.IsValid)
+            {
+                return RedirectToAction("display");
+            }
+            else
+            {
+                return View();
+            }
         }
 
         [HttpPost ("display")]
         public IActionResult Display(Survey theSurvey)
         {
-            // theSurvey.Name = string name;
-            // theSurvey.Location = string location;
-            // theSurvey.Language = string language;
-            // theSurvey.Comment = string comment;
-            return View(theSurvey);
+            return View();
         }
 
         public IActionResult Privacy()

@@ -1,3 +1,5 @@
+@model DojoSurvey.Models.Survey
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,23 +12,27 @@
 <body>
     <h1>Welcome to Dojo Survey!</h1>
     <div class="mb-3">
-        <form action="display" method="POST">
-            <label class="form-label" for="name">Name:</label>
-            <input class="form-control" type="text" name="name" id="name">
-            <label class="form-label" for="location">Location:</label>
-            <select class="form-control" name="location" id="location">
+        <form asp-action="display" method="POST">
+            <label class="form-label" asp-for="name">Name:</label>
+            <input class="form-control" type="text" asp-for="name" id="name">
+            <span class="warning" asp-validation-for="name">Name must be longer than 2 characters!</span>
+            <label class="form-label" asp-for="location">Location:</label>
+            <select class="form-control" asp-for="location" id="location">
                 <option value="Chicago">Chicago</option>
                 <option value="Seattle">Seattle</option>
                 <option value="Montreal">Montreal</option>
             </select>
-            <label class="label" for="language">Favorite Language:</label>
-            <select class="form-control" name="language" id="language">
+            <span class="warning" asp-validation-for="location">Location required!</span>
+            <label class="label" asp-for="language">Favorite Language:</label>
+            <select class="form-control" asp-for="language" id="language">
                 <option value="C#">C#</option>
                 <option value="JavaScript">JavaScript</option>
                 <option value="Python">Python</option>
             </select>
-            <label class="form-label" for="comment">Comment (optional):</label>
-            <textarea class="form-control" name="comment" id="comment" cols="30" rows="10">Comments here...</textarea>
+            <span class="danger" asp-validation-for="language">Must choose a language!</span>
+            <label class="form-label" asp-for="comment">Comment (optional):</label>
+            <textarea class="form-control" asp-for="comment" id="comment" cols="30" rows="10">Comments here...</textarea>
+            <span class="warning" asp-validation-for="comment">Comments must be shorter than 20 characters.</span>
             <input class="btn btn-primary" type="submit" value="submit">
         </form>
     </div>
